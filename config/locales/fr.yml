@@ -1,0 +1,5 @@
+fr:
+  payment_has_been_cancelled: Le paiement a été annulé.
+  change_payment_method: Change Payment Method
+  complete_atos_checkout: Please complete Atos checkout before continuing
+  order_processed_successfully: La commande a été effectuée avec succès

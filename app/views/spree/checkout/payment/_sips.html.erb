@@ -1,0 +1,22 @@
+</form>
+<p data-hook="atos_quick_checkout"></p>
+
+<div class="atos-cards">
+	<%= @atos_request.html_safe %>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var begin_form = '<form accept-charset="UTF-8" action="/checkout/update/payment" class="edit_order" id="checkout_form_payment" method="post"><div class="begin"></div>';
+		var div_form = $('#checkout_form_payment > div:first').html();
+		var end_form = '<input class="continue button primary" name="commit" type="submit" value="Save and Continue" /></form>';
+		$("#payment-methods>li>fieldset").each(function(){
+		    $(this).parent().prepend(begin_form);
+			$(this).parent().append(end_form);
+		});
+		var temp = $("fieldset#payment > fieldset:first").parent().html();
+		temp -= begin_form;
+		$("fieldset#payment > fieldset:first").parent().html(temp);
+		$("input[name='commit'].continue.button.primary:last").remove();
+		$(".begin").html(test);
+	});
+</script>
