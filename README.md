@@ -5,6 +5,9 @@
 ### Description
 La gem spree_atos_sips permet d'intégrer simplement la méthode de paiement de Atos Worldline à votre site e-commerce Spree.
 
+### Démonstration
+
+site de démonstration: http://dotspree-atos.srvdev02.dotgee.fr/
 
 ### Installation
 
@@ -65,6 +68,10 @@ La gem spree_atos_sips permet d'intégrer simplement la méthode de paiement de 
 
 ### Description
 The spree_atos_sips gem allows you to put easily the payment method from Atos Worldline in your Spree e-commerce website.
+
+### Display
+
+display website: http://dotspree-atos.srvdev02.dotgee.fr/
 
 
 ### Installation
